@@ -1,3 +1,4 @@
+<script>
 const space  = function (a) {
              if (a === 0) {
              	return "";
@@ -23,3 +24,4 @@ const space  = function (a) {
     		regulatory(n,1,n-1);
     	};
 	triangleStars(5);
+</script>
