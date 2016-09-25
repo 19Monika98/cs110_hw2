@@ -13,12 +13,12 @@ const space  = function (a) {
    return stars(i-1) + "*";
     };
 
-    	const regulatory = function (k,starcount,spacecount) {
+    	const run = function (k,starcount,spacecount) {
     		if (k === 0) {
     			return;
     	}   	
     				console.log(space(spacecount)+stars(starcount));
-    				regulatory((k-1),(starcount+2),(spacecount-1));
+    				run((k-1),(starcount+2),(spacecount-1));
 };
 		const triangleStars = function(n) {
     		regulatory(n,1,n-1);
