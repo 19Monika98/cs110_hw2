@@ -21,7 +21,7 @@ const space  = function (a) {
     				run((k-1),(starcount+2),(spacecount-1));
 };
 		const triangleStars = function(n) {
-    		regulatory(n,1,n-1);
+    		run(n,1,n-1);
     	};
 	triangleStars(5);
 </script>
